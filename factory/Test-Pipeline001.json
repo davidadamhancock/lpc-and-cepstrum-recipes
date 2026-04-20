@@ -1,0 +1,9 @@
+{
+	"name": "Test-Pipeline001",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a4890d31-3a0e-4360-a077-616079a28863",
+		"tenantId": "a412614a-2547-4e23-bc89-0d4258d930e5"
+	}
+}
