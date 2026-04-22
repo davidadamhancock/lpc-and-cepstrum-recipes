@@ -1,0 +1,21 @@
+{
+	"name": "DESKTOP_EOV4HP3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-EOV4HP3\\SQLEXPRESS",
+			"database": "cyclone",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "DESKTOP-EOV4HP3\\Batman&Vision",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNGU2NTg3Yi0zOGU1LTQ3ZmQtYmQ1OC04MjdiYzk4MTIxYTIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SH-connect-on-prem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
