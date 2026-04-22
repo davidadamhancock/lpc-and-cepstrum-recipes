@@ -1,0 +1,6 @@
+{
+	"name": "SH-connect-on-prem",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
