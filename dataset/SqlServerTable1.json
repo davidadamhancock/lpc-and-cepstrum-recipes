@@ -49,8 +49,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "SalesLT",
-			"table": "Address"
+			"schema": "",
+			"table": ""
 		}
 	}
 }

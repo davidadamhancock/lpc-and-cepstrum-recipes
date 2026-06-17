@@ -51,6 +51,31 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Lookup1",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "SqlServerSource",
+						"sqlReaderQuery": "Select\ns.name as SchemaName,\nt.Name as TableName\nFrom sys.tables t\nInner join sys.schemas s\nOn t.schema_id = s.schema_id\nWhere s.Name ='SalesLT'",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"dataset": {
+						"referenceName": "SqlServerTable1",
+						"type": "DatasetReference"
+					}
+				}
 			}
 		],
 		"annotations": []
