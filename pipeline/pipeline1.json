@@ -29,7 +29,7 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "ForEach_kn53dvh",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -41,6 +41,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('WatermarkList').output.value",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy data1",
@@ -58,7 +62,7 @@
 								"source": {
 									"type": "SqlServerSource",
 									"sqlReaderQuery": {
-										"value": "@concat('Select * From',item().SchemaName,'.',item().TableName)",
+										"value": "@concat('Select * From ',item().SchemaName,'.',item().TableName)",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
