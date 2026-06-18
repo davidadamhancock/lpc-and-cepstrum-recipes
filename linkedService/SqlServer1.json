@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-EOV4HP3\\SQLEXPRESS",
+			"database": "AdventureWorksLT2017",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "kn53dvh_onprem",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MzYxZmEzNi1lNTY4LTQ3YTQtYmVlOS1hZThmYzYzZWU0MGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "MedallionArchitureSHIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
