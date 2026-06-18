@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Test-Pipeline001"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"DESKTOP_EOV4HP3_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "kn53dvhtestdb.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "free-sql-db-6963461"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "kn53dvh"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "kn53dvhtestdb.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "free-sql-db-6963461"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "kn53dvh"
+		},
+		"DESKTOP_EOV4HP3_properties_typeProperties_server": {
+			"value": "DESKTOP-EOV4HP3\\SQLEXPRESS"
+		},
+		"DESKTOP_EOV4HP3_properties_typeProperties_database": {
+			"value": "cyclone"
+		},
+		"DESKTOP_EOV4HP3_properties_typeProperties_userName": {
+			"value": "DESKTOP-EOV4HP3\\Batman&Vision"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-EOV4HP3\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2017"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "kn53dvh_onprem"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
